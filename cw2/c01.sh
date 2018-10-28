@@ -14,4 +14,4 @@ do
   fi
 done
 
-echo ${arr[*]}| tr " " "\n" | sort -nu | tr "\n" " "
+echo ${arr[*]} | tr " " "\n" | sort -nur | tr "\n" " "
